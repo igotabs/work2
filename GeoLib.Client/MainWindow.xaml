@@ -9,7 +9,7 @@
         <Label Content="" Height="38" HorizontalAlignment="Left" Margin="156,157,0,0" Name="lblCity" VerticalAlignment="Top" Width="255" FontSize="20" />
         <Label Content="" Height="35" HorizontalAlignment="Left" Margin="156,211,0,0" Name="lblState" VerticalAlignment="Top" Width="255" FontSize="20" />
         <Label Content="State:" Height="40" HorizontalAlignment="Left" Margin="379,42,0,0" x:Name="label1_Copy" VerticalAlignment="Top" FontSize="20" Width="103" />
-        <TextBox Height="36" HorizontalAlignment="Left" Margin="463,46,0,0" x:Name="txtState" VerticalAlignment="Top" Width="143" FontSize="20" />
+        <TextBox Height="36" HorizontalAlignment="Left" Margin="463,46,0,0" x:Name="txtState" VerticalAlignment="Top" Width="143" FontSize="20" IsEnabled="False" />
         <Button Content="Get Zip Codes" Height="39" HorizontalAlignment="Left" Margin="463,103,0,0" x:Name="btnGetZipCodes" VerticalAlignment="Top" Width="143" Click="btnGetZipCodes_Click" FontSize="20" />
         <ListBox HorizontalAlignment="Left" Height="279" Margin="463,211,0,0" VerticalAlignment="Top" Width="232" Name="lstZips" FontSize="16">
             <ListBox.ItemTemplate>

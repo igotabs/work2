@@ -4,9 +4,9 @@ using System.Linq;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.Windows;
-using GeoLib.Proxies;
-//using GeoLib.Contracts;
-using GeoLib.Client.Contracts;
+//using GeoLib.Proxies;
+////using GeoLib.Contracts;
+//using GeoLib.Client.Contracts;
 using System.Threading;
 using System.Diagnostics;
 using GeoLib.Client.ServiceReference1;
@@ -48,12 +48,12 @@ namespace GeoLib.Client
         {
             if (txtState.Text != null)
             {
-                GeoClient proxy = new GeoClient("webEP");
-                IEnumerable<ZipCodeData> data = proxy.GetZips(txtState.Text);
-                if (data != null)
-                    lstZips.ItemsSource = data;
+                //ServiceReference1.IGeoService proxy1 = new GeoServiceClient();
+        
+                //IEnumerable<ZipCodeData> data = proxy1.GetZipsByState(txtState.Text);
+                //if (data != null)
+                //    lstZips.ItemsSource = data;
 
-                proxy.Close();
             }
         }
 

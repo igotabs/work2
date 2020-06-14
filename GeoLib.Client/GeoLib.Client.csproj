@@ -116,10 +116,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\8-wcf-end-to-end-m8-exercise-files\Starter\GeoLib.Proxies\GeoLib.Proxies.csproj">
-      <Project>{c8c984a8-3a38-4da7-894f-92c7ed9e0b3d}</Project>
-      <Name>GeoLib.Proxies</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GeoLib.Contracts\GeoLib.Contracts.csproj">
       <Project>{5f1ffdba-bbaa-4e8a-be50-4a29675dd500}</Project>
       <Name>GeoLib.Contracts</Name>
